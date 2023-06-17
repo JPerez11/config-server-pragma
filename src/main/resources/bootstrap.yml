@@ -1,3 +1,6 @@
+server:
+  port: 8081
+
 spring:
   application:
     name: config-server
@@ -9,6 +12,7 @@ spring:
           clone-on-start: true
           default-label: master
 
-server:
-  port:
-    8888
+  security:
+    user:
+      name: root
+      password: s3cr3t
